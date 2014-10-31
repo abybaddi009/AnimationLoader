@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:components="http://schemas.android.com/apk/res/com.abhishekbaddi.animationloader"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <!-- When you want to use this view to set in any layout
+    	comment out the onMeasure() method from the GIFView.java, 
+    	set the layout_width and layout_height to your preference
+    	and then you'll not get the NullPointerException in Graphical Layout
+     -->
+    
+    <com.abhishekbaddi.animationloader.GIFView
+        android:id="@+id/gifView1"
+        android:layout_width="wrap_content"							
+        android:layout_height="wrap_content"
+        components:src="@drawable/loader" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:text="Loading..."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+
+<!--
+	****************************************************************************
+	"THE BURGER-WARE LICENSE" (Revision 42):
+	<abybaddi009 gmail.com=""> wrote this file. As long as you retain this notice you
+	can do whatever you want with this stuff. If we meet some day, and you think
+	this stuff is worth it, you can buy me a burger in return. Abhishek Baddi
+	****************************************************************************
+-->

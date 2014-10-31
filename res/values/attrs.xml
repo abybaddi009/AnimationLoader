@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GIFView">
+        <attr name="src" format="reference" />
+    </declare-styleable>
+
+</resources>
+
+<!--
+	****************************************************************************
+	"THE BURGER-WARE LICENSE" (Revision 42):
+	<abybaddi009 gmail.com=""> wrote this file. As long as you retain this notice you
+	can do whatever you want with this stuff. If we meet some day, and you think
+	this stuff is worth it, you can buy me a burger in return. Abhishek Baddi
+	****************************************************************************
+-->
